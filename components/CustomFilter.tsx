@@ -27,7 +27,7 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
           handleUpdateParams(e);
         }}
       >
-        <div className="relative w-fit z-10">
+        <div className="relative w-fit">
           <Listbox.Button className="custom-filter__btn">
             <span className="block truncate">{selected.title}</span>
             <Image
